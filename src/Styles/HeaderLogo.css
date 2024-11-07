@@ -1,0 +1,54 @@
+*,::after,::before {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container-header-logo {
+    /* background-color: purple; */
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container-tool-language {
+    background-color: transparent;
+    width: 170px;
+    height:6vh;
+    border-radius: 10px;
+    border: 1px solid #000;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-left: 25px;
+    padding: 0 12px;
+}
+
+.logo-ankanin-ny-soa {
+    font-weight: 900;
+    margin-right: 25px;
+}
+
+.btn-language-selector {
+    border: none;
+    background-color: transparent;
+    z-index: 2;
+    cursor: pointer;
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} 
+
+.text-language {
+    margin-right: 10px;
+}
+
+.icon-language {
+    width: 20px;
+}
+
+.icon-chevron {
+    width: 17px;
+}
