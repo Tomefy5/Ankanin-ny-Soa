@@ -1,4 +1,6 @@
-*,::after,::before {
+*,
+::after,
+::before {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
@@ -8,4 +10,112 @@
   position: absolute;
   width: 100%;
   height: 100%;
+}
+
+/* ================================ Fonts responsives =================================== */
+
+html {
+  font-size: 16px;
+}
+
+body {
+  font-size: 16px !important;
+  line-height: 1.6;
+  font-family: "Arial", sans-serif;
+}
+
+h1 {
+  font-size: 2.5rem;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+h3 {
+  font-size: 1.75rem;
+}
+
+h4 {
+  font-size: 1.5rem;
+}
+
+h5 {
+  font-size: 1.25rem;
+}
+
+h6 {
+  font-size: 1rem;
+}
+
+p {
+  font-size: 1rem;
+}
+
+/* ======================== */
+/* Styles Responsive */
+/* ======================== */
+
+/* Écrans larges, max-width: 1200px */
+@media screen and (max-width: 1200px) {
+  h1 {
+    font-size: 2.5rem;
+  }
+  h2 {
+    font-size: 2rem;
+  }
+  h3 {
+    font-size: 1.75rem;
+  }
+  p {
+    font-size: 1rem;
+  }
+}
+
+/* Tablettes en mode paysage, max-width: 1024px */
+@media screen and (max-width: 1024px) {
+  h1 {
+    font-size: 2.25rem;
+  }
+  h2 {
+    font-size: 1.875rem;
+  }
+  h3 {
+    font-size: 1.625rem;
+  }
+  p {
+    font-size: 0.95rem;
+  }
+}
+
+/* Tablettes en mode portrait, max-width: 768px */
+@media screen and (max-width: 768px) {
+  h1 {
+    font-size: 2rem;
+  }
+  h2 {
+    font-size: 1.75rem;
+  }
+  h3 {
+    font-size: 1.5rem;
+  }
+  p {
+    font-size: 0.9rem;
+  }
+}
+
+/* Téléphones, max-width: 600px */
+@media screen and (max-width: 600px) {
+  h1 {
+    font-size: 1.75rem;
+  }
+  h2 {
+    font-size: 1.5rem;
+  }
+  h3 {
+    font-size: 1.375rem;
+  }
+  p {
+    font-size: 0.875rem;
+  }
 }

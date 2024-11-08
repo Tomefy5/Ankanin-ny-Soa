@@ -5,25 +5,60 @@
 }
 
 .home-body {
-    background-color: rgb(193, 182, 182);
-    width: 80%;
+    /* background-color: rgb(193, 182, 182); */
+    width: 70%;
     height: 75%;
     position: absolute;
     bottom: 0;
-    left: 10%;
+    left: 15%;
 }
 
 
 .home-body-text-section {
-    background-color: red;
-    height: 100%;
+    /* background-color: red; */
+    height: 100%;   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+.home-big-title {
+    font-weight: 900;
+    /* background-color: purple; */
+    display: inline-block;
+    width: 600px;
+    font-size: 60px;
+}
+
+.btn-apply {
+    width: 200px;
+    padding: 16px 18px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
 }
 
 .home-body-photo-section {
-    background-color: green;
+    /* background-color: green; */
     height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    position: relative;
 }
 
 .arrow-right-icon {
     width: 20px;
+    margin-left: 12px;
+}
+
+.image-in-blob {
+    position: absolute;
+    border-radius: 50%;
+    height: 80%;
+    transform: translate(70px, -55px);
 }
