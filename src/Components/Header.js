@@ -6,7 +6,7 @@ import iconChavronDown from "../Assets/icons/chevron-down-svgrepo-com.svg";
 
 export default function Header() {
   return (
-    <div className="bg-yellow-500 *w-full h-auto p-4 sm:px-10 lg:px-36 flex items-center justify-between">
+    <div className="bg-yellow-500 w-full h-auto p-4 sm:px-10 lg:px-36 flex items-center justify-between lg:pt-24">
       <div className="h-full flex items-center">
         <a href="#home" className="flex items-center">
           <img className="h-12 mr-3" src={nurseryLogo} alt="bird" />

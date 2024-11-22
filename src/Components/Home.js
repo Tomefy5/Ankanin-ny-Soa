@@ -4,7 +4,7 @@ import Header from './Header';
 
 export default function Home() {
   return (
-    <div className="bg-gray-100 w-full h-[100vh]">
+    <div className="bg-gray-100 w-full h-[100vh] relative overflow-hidden">
       <BlocWavePattern />
       <Header />
     </div>
