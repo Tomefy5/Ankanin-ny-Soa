@@ -1,12 +1,12 @@
 import './App.css';
-import BlocWavePattern from './Components/BlocWavePattern';
-import Header from './Components/Header';
+import About from './Components/About';
 import Home from './Components/Home';
 
 function App() {
   return (
     <div className="App">
       <Home />
+      <About />
     </div>
   );
 }

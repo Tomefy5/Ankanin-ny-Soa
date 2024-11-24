@@ -7,7 +7,7 @@ import iconInstagram from "../Assets/icons/instagram-167-svgrepo-com.svg"
 
 export default function BlocWavePattern() {
   return (
-    <div className='w-full h-28 absolute flex top-0 hidden lg:flex'>
+    <div className='w-full h-28 absolute top-0 hidden lg:flex'>
         <img className='h-full' src={motifWave} alt="large wave pattern" />
         <img className='h-full' src={motifWave} alt="large wave pattern" />
         <div className='absolute w-full h-10 px-28 grid'>
