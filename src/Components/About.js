@@ -6,8 +6,8 @@ import iconPhone from "../Assets/icons/phone-svgrepo-com.svg"
 
 export default function About() {
   return (
-    <div className="h-auto min-h-[100vh] bg-gray-100 flex llg:items-center llg:justify-center">
-      <div className="w-full container mx-auto md:mx-6 lg:mx-0 grid grid-cols-1 llg:grid-cols-2">
+    <div className="h-auto min-h-[100vh] bg-gray-100 flex lg:items-center lg:justify-center">
+      <div className="w-full container mx-auto md:mx-6 lg:mx-0 grid grid-cols-1 lg:grid-cols-2">
         <div className="w-full flex items-center justify-center md:justify-start lg:justify-center md:pl-8">
           <img
             className="w-full md:w-3/4 lg:w-11/12 xl:w-9/12 object-cover"
@@ -17,7 +17,7 @@ export default function About() {
         </div>
         <div className="w-full p-2">
           <h2 className="font-medium mb-4 text-xl">About Us</h2>
-          <h1 className="font-bold text-3xl md:text-4xl">Top Choice For Children</h1>
+          <h1 className="font-bold text-3xl md:text-4xl xl:text-5xl">Top Choice For Children</h1>
           <p className="mt-5">
             Class aptent taciti sociosqu ad litora torquent per conubia nostra,
             per inceptos himenaeos. Suspendisse gravida vitae nisi in tincidunt.
@@ -52,7 +52,7 @@ export default function About() {
                 alt="icon arrow right"
               />
             </a>
-            <div className="ml-8 flex items-center mt-6 md:mt-0">
+            <div className="ml-0 md:ml-8 flex items-center mt-6 md:mt-0">
               <div className="h-[60px] w-[60px] flex items-center justify-center rounded-[50%] border border-black">
                 <div className="bg-blue-500 h-[48px] w-[48px] flex items-center justify-center rounded-[50%]">
                   <img className="h-6" src={iconPhone} alt="icon phone" />

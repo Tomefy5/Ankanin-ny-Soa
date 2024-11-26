@@ -2,10 +2,10 @@ import React from "react";
 import iconHamburger from "../Assets/icons/hamburger-menu-svgrepo-com.svg";
 
 const navbarItems = [
-  { name: "Accueil", link: "#accueil" },
-  { name: "A Propos", link: "#apropos" },
-  { name: "Pédagogie", link: "#pedagogie" },
-  { name: "Services", link: "#modalites" },
+  { name: "Home", link: "#home" },
+  { name: "About", link: "#about" },
+  { name: "Programs", link: "#programs" },
+  { name: "Services", link: "#services" },
   { name: "Galerie", link: "#galerie" },
   { name: "Contact", link: "#contact" },
 ];
