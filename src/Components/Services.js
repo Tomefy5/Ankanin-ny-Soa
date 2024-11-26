@@ -3,7 +3,7 @@ import imageService from "../Assets/motifs/service_image.png";
 
 export default function Services() {
   return (
-    <div className="h-auto py-16 pt-5 bg-gray-200">
+    <div className="h-auto py-16 pt-5 bg-gray-100">
       <h2 className="font-medium mb-4 text-center text-xl">Our Services</h2>
       <div className="flex flex-wrap mt-10 justify-center xl:h-[40vh]">
         <a
