@@ -4,7 +4,7 @@ import imageProg1 from "../Assets/images/thomas-lefebvre-aRXPJnXQ9lU-unsplash.jp
 
 export default function Programs() {
   return (
-    <div className="bg-gray-200 pt-16 min-h-[100vh] flex flex-col text-center items-center justify-start overflow-hidden">
+    <div className="bg-gray-100 pt-16 min-h-[100vh] flex flex-col text-center items-center justify-start overflow-hidden">
       <h2 className="font-medium mb-4 text-xl">Our Programs</h2>
       <div>
         <h1 className="400 px-3 inline-block ssm:w-[80%] md:px-0 lg:w-[60%] font-bold text-3xl md:text-4xl xl:text-5xl">
