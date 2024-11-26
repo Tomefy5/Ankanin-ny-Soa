@@ -10,12 +10,12 @@ export default function About() {
       <div className="w-full container mx-auto md:mx-6 lg:mx-0 grid grid-cols-1 lg:grid-cols-2">
         <div className="w-full flex items-center justify-center md:justify-start lg:justify-center md:pl-8">
           <img
-            className="w-full md:w-3/4 lg:w-11/12 xl:w-9/12 object-cover"
+            className="w-11/12 md:w-3/4 lg:w-11/12 xl:w-9/12 object-cover"
             src={imageAbout}
             alt="teacher with child"
           />
         </div>
-        <div className="w-full p-2">
+        <div className="w-full p-5">
           <h2 className="font-medium mb-4 text-xl">About Us</h2>
           <h1 className="font-bold text-3xl md:text-4xl xl:text-5xl">Top Choice For Children</h1>
           <p className="mt-5">

@@ -1,3 +1,13 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+@layer utilities {
+    .flex-link-service:nth-child(odd) {
+        justify-content: start;
+    }
+    .flex-link-service:nth-child(even) {
+        justify-content: end;
+    }
+}
