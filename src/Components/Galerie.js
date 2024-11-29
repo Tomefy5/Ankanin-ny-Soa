@@ -58,7 +58,7 @@ export default function Galerie() {
               <div className="relative overflow-hidden rounded-lg shadow-lg">
                 <img
                   src={image}
-                  alt={`img galerie ${index}`}
+                  alt={`galerie_img ${index}`}
                   className="w-full h-64 object-cover"
                 />
                 <div className="absolute inset-0 bg-black opacity-0 hover:opacity-50 transition duration-300"></div>
