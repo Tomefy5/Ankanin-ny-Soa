@@ -1,5 +1,6 @@
 import './App.css';
 import About from './Components/About';
+import FooterContact from './Components/FooterContact';
 import Galerie from './Components/Galerie';
 import Home from './Components/Home';
 import Programs from './Components/Programs';
@@ -13,6 +14,7 @@ function App() {
       <Programs />
       <Services />
       <Galerie />
+      <FooterContact />
     </div>
   );
 }
