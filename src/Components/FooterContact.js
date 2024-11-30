@@ -30,7 +30,7 @@ const contactFooter = [
 
 export default function FooterContact() {
   return (
-    <div className="bg-gray-300 min-h-[100vh] px-4 lg:px-2">
+    <div className="bg-gray-100 h-auto pb-10 px-4 lg:px-2">
       <div className="w-full md:w-[95%] lg:w-full xl:w-[85%] md:max-w-[754px] lg:max-w-[1102px] xl:max-w-[1296px]  mx-auto">
         <div className="flex flex-col md:flex-row md:flex-wrap justify-between w-full mx-auto border-b">
           {contactFooter.map((contact, index) => (
