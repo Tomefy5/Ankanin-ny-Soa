@@ -30,7 +30,7 @@ const contactFooter = [
 
 export default function FooterContact() {
   return (
-    <div className="bg-gray-100 h-auto pb-10 px-4 lg:px-2">
+    <div className="bg-gray-100 h-auto pt-24  pb-10 px-4 lg:px-2">
       <div className="w-full md:w-[95%] lg:w-full xl:w-[85%] md:max-w-[754px] lg:max-w-[1102px] xl:max-w-[1296px]  mx-auto">
         <div className="flex flex-col md:flex-row md:flex-wrap justify-between w-full mx-auto border-b">
           {contactFooter.map((contact, index) => (
@@ -55,7 +55,7 @@ export default function FooterContact() {
             </div>
           ))}
         </div>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 mt-6 lg:mt-20">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 mt-6 lg:mt-10">
           <div className="flex flex-col">
             <a
               href="#home"
@@ -70,7 +70,7 @@ export default function FooterContact() {
               Phasellus ultricies aliquam volutpat ullamcorper laoreet neque, a
               lacinia curabitur lacinia mollis
             </p>
-            <div className="mt-5 flex">
+            <div className="mt-8 flex">
               <a
                 href="#facebook"
                 className="w-[36px] h-[36px] flex items-center justify-center mx-2 border-black border rounded first:ml-0"

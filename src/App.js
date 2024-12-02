@@ -8,7 +8,7 @@ import Services from './Components/Services';
 
 function App() {
   return (
-    <div className="App">
+    <div className="App text-yellow-900">
       <Home />
       <About />
       <Programs />

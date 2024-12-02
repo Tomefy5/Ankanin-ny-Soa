@@ -22,7 +22,7 @@ export default function Navbar() {
         {navbarItems.map((navItem, index) => (
           <li className="font-medium" key={index}>
             <a
-              className="transition-colorsœ text-gray-800 hover:text-gray-950"
+              className="transition-colors hover:text-gray-950"
               href={navItem.link}
             >
               {navItem.name}

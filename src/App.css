@@ -2,97 +2,33 @@
 @tailwind components;
 @tailwind utilities;
 
-@layer utilities {
-  .flex-link-service:nth-child(odd) {
-    justify-content: start;
-  }
-  .flex-link-service:nth-child(even) {
-    justify-content: end;
-  }
+
+@font-face {
+  font-family: 'Chewy';
+  src: url('./Assets/fonts/Chewy,Montserrat,Open_Sans,Raleway/Chewy/Chewy-Regular.ttf')format('truetype');
+  font-weight: 100 900;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Open Sans';
+  src: url("./Assets/fonts/Chewy,Montserrat,Open_Sans,Raleway/Open_Sans/OpenSans-VariableFont_wdth,wght.ttf") format('truetype');
+  font-weight: 100 900;
+  font-style: normal;
 }
 
-/* @keyframes slideLeft {
-    0% {
-        transform: translateX(0);
-    }
-
-    100% {
-        transform: translateX(-19vw);
-    }
+@font-face {
+  font-family: 'Buba';
+  src: url("./Assets/fonts/buba/BubaDEMO-Outline.otf") format('opentype');
+  font-weight: 100 900;
+  font-style: normal;
 }
 
-.animate-slideLeft {
-    animation: slideLeft 1s ease 3 forwards;
-} */
 
-/* Première étape : déplacement de 19vw */
-@keyframes slide1 {
-  0% {
-    transform: translateX(0);
-  }
-  100% {
-    transform: translateX(-20vw);
-  }
+
+p,span,ul,button {
+  font-family: 'Open Sans', sans-serif;
 }
 
-/* Deuxième étape : déplacement de 38vw */
-@keyframes slide2 {
-  0% {
-    transform: translateX(-20vw);
-  }
-  100% {
-    transform: translateX(-40vw);
-  }
-}
-
-/* Troisième étape : déplacement de 57vw */
-@keyframes slide3 {
-  0% {
-    transform: translateX(-40vw);
-  }
-  100% {
-    transform: translateX(-60vw);
-  }
-}
-
-@keyframes slide4 {
-  0% {
-    transform: translateX(-60vw);
-  }
-  100% {
-    transform: translateX(-80vw);
-  }
-}
-
-@keyframes slide5 {
-  0% {
-    transform: translateX(-80vw);
-  }
-  100% {
-    transform: translateX(-100vw);
-  }
-}
-
-.animate-slideLeft1 {
-  animation: slide1 2s ease-in-out forwards;
-}
-
-.animate-slideLeft2 {
-  animation: slide1 2s ease-in-out forwards, slide2 2s ease-in-out forwards 2s;
-}
-
-.animate-slideLeft3 {
-  animation: slide1 2s ease-in-out forwards, slide2 2s ease-in-out forwards 2s,
-    slide3 2s ease-in-out forwards 4s;
-}
-
-.animate-slideLeft4 {
-  animation: slide1 2s ease-in-out forwards, slide2 2s ease-in-out forwards 2s,
-    slide3 2s ease-in-out forwards 4s, slide4 2s ease-in-out forwards 6s;
-}
-
-.animate-slideLeft5 {
-  animation: slide1 2s ease-in-out forwards, slide2 2s ease-in-out forwards 2s,
-    slide3 2s ease-in-out forwards 4s, slide4 2s ease-in-out forwards 6s,
-    slide5 2s ease-in-out forwards 8s;
+h1,h2,h3,h4,h5,h6 {
+  font-family: 'Chewy';
 }
