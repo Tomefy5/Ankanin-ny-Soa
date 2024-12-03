@@ -1,10 +1,10 @@
 import React from "react";
-import iconPhone from "../Assets/icons/phone-svgrepo-com.svg";
-import iconEnvelope from "../Assets/icons/envelope-mail-mobile-ui-svgrepo-com.svg";
-import iconLocation from "../Assets/icons/location-pin-alt-1-svgrepo-com.svg";
+import iconPhone from "../Assets/icons/calling-svgrepo-com.svg";
+import iconEnvelope from "../Assets/icons/mail-pencil-svgrepo-com.svg";
+import iconLocation from "../Assets/icons/map-point-svgrepo-com.svg";
 import nurseryLogo from "../Assets/Logo/logo_creche.png";
-import logoFacebook from "../Assets/icons/facebook.svg";
-import logoInstagram from "../Assets/icons/instagram-167-svgrepo-com.svg";
+import logoFacebook from "../Assets/icons/facebook-176-svgrepo-com.svg";
+import logoInstagram from "../Assets/icons/instagram-167-svgrepo-com2.svg";
 import iconChevronRight from "../Assets/icons/chevron-right-svgrepo-com.svg";
 
 const contactFooter = [
@@ -12,7 +12,7 @@ const contactFooter = [
     contact: "phone",
     icon: iconPhone,
     text: "Call Us 7/24",
-    content: "+261 34 21 595 55",
+    content: "+261 34 31 595 55",
   },
   {
     contact: "email",
@@ -30,12 +30,12 @@ const contactFooter = [
 
 export default function FooterContact() {
   return (
-    <div className="bg-gray-100 h-auto pt-24  pb-10 px-4 lg:px-2">
+    <div className="bg-yellow-100 h-auto pt-24  pb-10 px-4 lg:px-2">
       <div className="w-full md:w-[95%] lg:w-full xl:w-[85%] md:max-w-[754px] lg:max-w-[1102px] xl:max-w-[1296px]  mx-auto">
-        <div className="flex flex-col md:flex-row md:flex-wrap justify-between w-full mx-auto border-b">
+        <div className="flex flex-col md:flex-row md:flex-wrap justify-between w-full mx-auto border-b border-yellow-400">
           {contactFooter.map((contact, index) => (
             <div className="py-8 flex items-center" key={index}>
-              <div className="h-[60px] w-[60px] flex items-center justify-center rounded-[50%] border border-dashed border-black">
+              <div className="h-[60px] w-[60px] flex items-center justify-center rounded-[50%] border border-dashed border-rose-500">
                 <div className="h-[48px] w-[48px] flex items-center justify-center rounded-[50%] animate-none">
                   <img
                     className="h-7 md:h-8"
@@ -45,10 +45,10 @@ export default function FooterContact() {
                 </div>
               </div>
               <div className="flex flex-col h-full ml-5">
-                <span className="font-normal text-sm ssm:text-base">
+                <span className="font-normal text-sm ssm:text-base text-yellow-600">
                   {contact.text}
                 </span>
-                <span className="font-bold text-xl ssm:text-2xl">
+                <span className="font-bold text-xl ssm:text-2xl text-yellow-600">
                   {contact.content}
                 </span>
               </div>
@@ -59,10 +59,10 @@ export default function FooterContact() {
           <div className="flex flex-col">
             <a
               href="#home"
-              className="flex items-center min-w-[218px] border-b-4 h-[70px]"
+              className="relative flex items-center min-w-[218px] h-[70px] after:absolute after:bottom-0 after:left-0 after:h-[2px] after:w-1/3 after:bg-gradient-to-r after:from-rose-500 after:to-yellow-100"
             >
               <img className="h-12 mr-3" src={nurseryLogo} alt="bird" />
-              <span className="text-2xl font-bold tracking-tight">
+              <span className="text-2xl font-bold tracking-tight font-buba text-yellow-500">
                 Ankanin'ny Soa
               </span>
             </a>
@@ -73,7 +73,7 @@ export default function FooterContact() {
             <div className="mt-8 flex">
               <a
                 href="#facebook"
-                className="w-[36px] h-[36px] flex items-center justify-center mx-2 border-black border rounded first:ml-0"
+                className="w-[36px] h-[36px] flex items-center justify-center mx-2 border-yellow-300 border rounded-sm first:ml-0"
               >
                 <img
                   className="h-[50%]"
@@ -83,7 +83,7 @@ export default function FooterContact() {
               </a>
               <a
                 href="#instagram"
-                className="w-[36px] h-[36px] flex items-center justify-center mx-2 border-black border rounded first:ml-0"
+                className="w-[36px] h-[36px] flex items-center justify-center mx-2 border-yellow-300 border rounded-sm first:ml-0"
               >
                 <img
                   className="h-[50%]"
@@ -93,9 +93,9 @@ export default function FooterContact() {
               </a>
             </div>
           </div>
-          <div className="">
-            <div className="border-b-4 h-[70px] flex items-center">
-              <h4 className="text-2xl font-bold">Quick Links</h4>
+          <div className="lg:pl-16">
+            <div className="relative h-[70px] flex items-center after:absolute after:bottom-0 after:left-0 after:h-[2px] after:w-1/3 after:bg-gradient-to-r after:from-rose-500 after:to-yellow-100">
+              <h4 className="text-2xl font-bold text-yellow-500">Quick Links</h4>
             </div>
             <ul className="">
               <li className="py-2">
@@ -141,8 +141,8 @@ export default function FooterContact() {
             </ul>
           </div>
           <div className="">
-            <div className="border-b-4 h-[70px] flex items-center">
-              <h4 className="text-2xl font-bold">Categorie</h4>
+            <div className="relative h-[70px] flex items-center after:absolute after:bottom-0 after:left-0 after:h-[2px] after:w-1/3 after:bg-gradient-to-r after:from-rose-500 after:to-yellow-100">
+              <h4 className="text-2xl font-bold text-yellow-500">Categorie</h4>
             </div>
             <ul className="">
               <li className="py-2">

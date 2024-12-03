@@ -45,11 +45,11 @@ const images = [
 
 export default function Galerie() {
   return (
-    <div className="bg-gray-100 h-auto pt-8 lg:pt-16">
+    <div className="bg-yellow-100 h-auto pt-8 lg:pt-16">
       <div className="flex items-center justify-center mb-0">
-        <div className="bg-black h-[1px] w-[30%] hidden lg:flex"></div>
-        <h3 className="font-medium text-xl text-center mx-8">Our Galerie</h3>
-        <div className="bg-black h-[1px] w-[30%] hidden lg:flex"></div>
+        <div className="bg-rose-500 h-[1px] w-[30%] hidden lg:flex"></div>
+        <h3 className="font-medium text-xl text-center mx-8 text-rose-500 lg:text-yellow-500">Our Galerie</h3>
+        <div className="bg-rose-500 h-[1px] w-[30%] hidden lg:flex"></div>
       </div>
       <div className="container mx-auto py-12">
         <Slider {...settings}>

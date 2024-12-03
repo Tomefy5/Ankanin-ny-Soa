@@ -4,16 +4,16 @@ import imageProg1 from "../Assets/images/thomas-lefebvre-aRXPJnXQ9lU-unsplash.jp
 
 export default function Programs() {
   return (
-    <div className="bg-gray-100 pt-16 min-h-[100vh] flex flex-col text-center items-center justify-start pb-5">
-      <h2 className="font-medium mb-6 text-xl">Our Programs</h2>
+    <div className="bg-yellow-100 pt-16 min-h-[100vh] flex flex-col text-center items-center justify-start pb-5">
+      <h2 className="font-medium mb-6 text-xl text-rose-500">Our Programs</h2>
       <div>
-        <h1 className="400 px-3 inline-block ssm:w-[80%] md:px-0 lg:w-[60%] font-bold text-3xl md:text-4xl xl:text-5xl">
+        <h1 className="400 px-3 inline-block ssm:w-[80%] md:px-0 lg:w-[60%] font-bold text-3xl md:text-4xl xl:text-5xl text-yellow-500">
           We Meet Kids At Their Level Regardless Of Their Age
         </h1>
       </div>
       <div className="mt-8 lg:mt-16 flex flex-wrap items-center justify-center px-4">
 
-        <div className="relative bg-gray-300 px-6 py-4 md:mx-6 smd:mt-0 w-[300px] h-[396px] xsm:w-[370px] xsm:h-[466px] md:w-[380px] md:h-[476px] lg:w-[400px] lg:h-[496px] rounded-tl-[37%] rounded-tr-[40%] rounded-bl-[35%] rounded-br-[50%]">
+        <div className="text-white relative bg-cyan-500 px-6 py-4 md:mx-6 smd:mt-0 w-[300px] h-[396px] xsm:w-[370px] xsm:h-[466px] md:w-[380px] md:h-[476px] lg:w-[400px] lg:h-[496px] rounded-tl-[37%] rounded-tr-[40%] rounded-bl-[35%] rounded-br-[50%]">
           <div className="bg-gray-100 overflow-hidden mx-auto w-[95%] h-1/2 rounded-tl-[40%] rounded-tr-[50%] rounded-bl-[25%] rounded-br-[40%]">
             <img
               className="object-cover h-full"
@@ -28,7 +28,7 @@ export default function Programs() {
               Lorem ipsum dolor consectur the adipiscing elit eiusmod.
             </p>
           </div>
-          <a href="#prog" className="bg-gray-200 flex items-center justify-center rounded-3xl absolute left-1/2 transform -translate-x-1/3 translate-y-1/3 bottom-0 w-[50px] h-[45px] md:w-[60px] md:h-[55px]">
+          <a href="#prog" className="bg-rose-500 flex items-center justify-center rounded-3xl absolute left-1/2 transform -translate-x-1/3 translate-y-1/3 bottom-0 w-[50px] h-[45px] md:w-[60px] md:h-[55px]">
             <img
               className="h-[40%]"
               src={iconArrowRight}
@@ -37,7 +37,7 @@ export default function Programs() {
           </a>
         </div>
 
-        <div className="relative bg-gray-300 px-6 py-4 mt-12 md:mx-6 smd:mt-0 w-[300px] h-[396px] xsm:w-[370px] xsm:h-[466px] md:w-[380px] md:h-[476px] lg:w-[400px] lg:h-[496px] rounded-tl-[37%] rounded-tr-[40%] rounded-bl-[35%] rounded-br-[50%]">
+        <div className="text-white relative bg-fuchsia-500 px-6 py-4 mt-12 md:mx-6 smd:mt-0 w-[300px] h-[396px] xsm:w-[370px] xsm:h-[466px] md:w-[380px] md:h-[476px] lg:w-[400px] lg:h-[496px] rounded-tl-[37%] rounded-tr-[40%] rounded-bl-[35%] rounded-br-[50%]">
           <div className="bg-gray-100 overflow-hidden mx-auto w-[95%] h-1/2 rounded-tl-[40%] rounded-tr-[50%] rounded-bl-[25%] rounded-br-[40%]">
             <img
               className="object-cover h-full"
@@ -52,7 +52,7 @@ export default function Programs() {
               Lorem ipsum dolor consectur the adipiscing elit eiusmod.
             </p>
           </div>
-          <a href="#prog" className="bg-gray-200 flex items-center justify-center rounded-3xl absolute left-1/2 transform -translate-x-1/3 translate-y-1/3 bottom-0 w-[50px] h-[45px] md:w-[60px] md:h-[55px]">
+          <a href="#prog" className="bg-yellow-400 flex items-center justify-center rounded-3xl absolute left-1/2 transform -translate-x-1/3 translate-y-1/3 bottom-0 w-[50px] h-[45px] md:w-[60px] md:h-[55px]">
             <img
               className="h-[40%]"
               src={iconArrowRight}
@@ -61,7 +61,7 @@ export default function Programs() {
           </a>
         </div>
 
-        <div className="relative bg-gray-300 px-6 py-4 mt-12 md:mx-6 smd:mt-0 w-[300px] h-[396px] xsm:w-[370px] xsm:h-[466px] md:w-[380px] md:h-[476px] lg:w-[400px] lg:h-[496px] rounded-tl-[37%] rounded-tr-[40%] rounded-bl-[35%] rounded-br-[50%]">
+        <div className="text-white relative bg-yellow-400 px-6 py-4 mt-12 md:mx-6 smd:mt-0 w-[300px] h-[396px] xsm:w-[370px] xsm:h-[466px] md:w-[380px] md:h-[476px] lg:w-[400px] lg:h-[496px] rounded-tl-[37%] rounded-tr-[40%] rounded-bl-[35%] rounded-br-[50%]">
           <div className="bg-gray-100 overflow-hidden mx-auto w-[95%] h-1/2 rounded-tl-[40%] rounded-tr-[50%] rounded-bl-[25%] rounded-br-[40%]">
             <img
               className="object-cover h-full"
@@ -76,7 +76,7 @@ export default function Programs() {
               Lorem ipsum dolor consectur the adipiscing elit eiusmod.
             </p>
           </div>
-          <a href="#prog" className="bg-gray-200 flex items-center justify-center rounded-3xl absolute left-1/2 transform -translate-x-1/3 translate-y-1/3 bottom-0 w-[50px] h-[45px] md:w-[60px] md:h-[55px]">
+          <a href="#prog" className="bg-rose-500 flex items-center justify-center rounded-3xl absolute left-1/2 transform -translate-x-1/3 translate-y-1/3 bottom-0 w-[50px] h-[45px] md:w-[60px] md:h-[55px]">
             <img
               className="h-[40%]"
               src={iconArrowRight}
