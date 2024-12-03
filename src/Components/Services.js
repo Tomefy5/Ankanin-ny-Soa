@@ -8,7 +8,7 @@ export default function Services() {
       <div className="flex flex-wrap mt-10 justify-center xl:h-[40vh]">
         <a
           href="#service"
-          className="xl:flex-link-service py-4 mx-0 bg-gra-300 w-[90%] max-w-[306px] flex flex-col text-center items-center justify-center"
+          className="flex-link-service py-4 mx-0 bg-gra-300 w-[90%] max-w-[306px] flex flex-col text-center items-center"
         >
           <div className="w-[80%] mx-auto flex items-center justify-center">
             <img src={imageService} alt="blob" />
@@ -21,7 +21,7 @@ export default function Services() {
 
         <a
           href="#service"
-          className="xl:flex-link-service py-4 mx-0 bg-gra-300 w-[90%] max-w-[306px] flex flex-col text-center items-center justify-center"
+          className="flex-link-service py-4 mx-0 bg-gra-300 w-[90%] max-w-[306px] flex flex-col text-center items-center"
         >
           <div className="w-[80%] mx-auto flex items-center justify-center">
             <img src={imageService} alt="blob" />
@@ -34,7 +34,7 @@ export default function Services() {
 
         <a
           href="#service"
-          className="xl:flex-link-service py-4 mx-0 bg-gra-300 w-[90%] max-w-[306px] flex flex-col text-center items-center justify-center"
+          className="flex-link-service py-4 mx-0 bg-gra-300 w-[90%] max-w-[306px] flex flex-col text-center items-center"
         >
           <div className="w-[80%] mx-auto flex items-center justify-center">
             <img src={imageService} alt="blob" />
@@ -47,7 +47,7 @@ export default function Services() {
 
         <a
           href="#service"
-          className="xl:flex-link-service py-4 mx-0 bg-gra-300 w-[90%] max-w-[306px] flex flex-col text-center items-center justify-center"
+          className="flex-link-service py-4 mx-0 bg-gra-300 w-[90%] max-w-[306px] flex flex-col text-center items-center"
         >
           <div className="w-[80%] mx-auto flex items-center justify-center">
             <img src={imageService} alt="blob" />

@@ -1,13 +1,14 @@
 import React from "react";
 import iconHamburger from "../Assets/icons/hamburger-menu-svgrepo-com.svg";
+import { Link } from "react-router-dom";
 
 const navbarItems = [
-  { name: "Home", link: "#home" },
-  { name: "About", link: "#about" },
-  { name: "Programs", link: "#programs" },
-  { name: "Services", link: "#services" },
-  { name: "Galerie", link: "#galerie" },
-  { name: "Contact", link: "#contact" },
+  { name: "Home", link: "/" },
+  { name: "About", link: "/about" },
+  { name: "Programs", link: "/programs" },
+  { name: "Services", link: "/services" },
+  { name: "Galerie", link: "/galerie" },
+  { name: "Contact", link: "/contact" },
 ];
 
 export default function Navbar() {
@@ -21,12 +22,12 @@ export default function Navbar() {
       <ul className="w-full hidden items-center justify-between lg:justify-evenly px-0 lg:px-10 lg:flex">
         {navbarItems.map((navItem, index) => (
           <li className="font-medium" key={index}>
-            <a
+            <Link
               className="transition-colors duration-300  hover:text-rose-500"
-              href={navItem.link}
+              to={navItem.link}
             >
               {navItem.name}
-            </a>
+            </Link>
           </li>
         ))}
       </ul>

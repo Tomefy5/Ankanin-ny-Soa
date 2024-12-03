@@ -2,6 +2,13 @@
 @tailwind components;
 @tailwind utilities;
 
+.flex-link-service:nth-child(odd) {
+  justify-content: flex-start;
+}
+
+.flex-link-service:nth-child(even) {
+  justify-content: flex-end ; 
+}
 
 @font-face {
   font-family: 'Chewy';

@@ -28,7 +28,7 @@ export default function Programs() {
               Lorem ipsum dolor consectur the adipiscing elit eiusmod.
             </p>
           </div>
-          <a href="#prog" className="bg-rose-500 flex items-center justify-center rounded-3xl absolute left-1/2 transform -translate-x-1/3 translate-y-1/3 bottom-0 w-[50px] h-[45px] md:w-[60px] md:h-[55px]">
+          <a href="#prog" className="bg-rose-500 hover:bg-rose-600 transition-colors duration-300 flex items-center justify-center rounded-3xl absolute left-1/2 transform -translate-x-1/3 translate-y-1/3 bottom-0 w-[50px] h-[45px] md:w-[60px] md:h-[55px]">
             <img
               className="h-[40%]"
               src={iconArrowRight}
@@ -37,7 +37,7 @@ export default function Programs() {
           </a>
         </div>
 
-        <div className="text-white relative bg-fuchsia-500 px-6 py-4 mt-12 md:mx-6 smd:mt-0 w-[300px] h-[396px] xsm:w-[370px] xsm:h-[466px] md:w-[380px] md:h-[476px] lg:w-[400px] lg:h-[496px] rounded-tl-[37%] rounded-tr-[40%] rounded-bl-[35%] rounded-br-[50%]">
+        <div className="text-white relative bg-red-400 px-6 py-4 mt-12 md:mx-6 smd:mt-0 w-[300px] h-[396px] xsm:w-[370px] xsm:h-[466px] md:w-[380px] md:h-[476px] lg:w-[400px] lg:h-[496px] rounded-tl-[37%] rounded-tr-[40%] rounded-bl-[35%] rounded-br-[50%]">
           <div className="bg-gray-100 overflow-hidden mx-auto w-[95%] h-1/2 rounded-tl-[40%] rounded-tr-[50%] rounded-bl-[25%] rounded-br-[40%]">
             <img
               className="object-cover h-full"
@@ -52,7 +52,7 @@ export default function Programs() {
               Lorem ipsum dolor consectur the adipiscing elit eiusmod.
             </p>
           </div>
-          <a href="#prog" className="bg-yellow-400 flex items-center justify-center rounded-3xl absolute left-1/2 transform -translate-x-1/3 translate-y-1/3 bottom-0 w-[50px] h-[45px] md:w-[60px] md:h-[55px]">
+          <a href="#prog" className="bg-yellow-400 hover:bg-yellow-500 transition-colors duration-300 flex items-center justify-center rounded-3xl absolute left-1/2 transform -translate-x-1/3 translate-y-1/3 bottom-0 w-[50px] h-[45px] md:w-[60px] md:h-[55px]">
             <img
               className="h-[40%]"
               src={iconArrowRight}
@@ -61,7 +61,7 @@ export default function Programs() {
           </a>
         </div>
 
-        <div className="text-white relative bg-yellow-400 px-6 py-4 mt-12 md:mx-6 smd:mt-0 w-[300px] h-[396px] xsm:w-[370px] xsm:h-[466px] md:w-[380px] md:h-[476px] lg:w-[400px] lg:h-[496px] rounded-tl-[37%] rounded-tr-[40%] rounded-bl-[35%] rounded-br-[50%]">
+        <div className="text-white relative bg-amber-400 px-6 py-4 mt-12 md:mx-6 smd:mt-0 w-[300px] h-[396px] xsm:w-[370px] xsm:h-[466px] md:w-[380px] md:h-[476px] lg:w-[400px] lg:h-[496px] rounded-tl-[37%] rounded-tr-[40%] rounded-bl-[35%] rounded-br-[50%]">
           <div className="bg-gray-100 overflow-hidden mx-auto w-[95%] h-1/2 rounded-tl-[40%] rounded-tr-[50%] rounded-bl-[25%] rounded-br-[40%]">
             <img
               className="object-cover h-full"
@@ -76,7 +76,7 @@ export default function Programs() {
               Lorem ipsum dolor consectur the adipiscing elit eiusmod.
             </p>
           </div>
-          <a href="#prog" className="bg-rose-500 flex items-center justify-center rounded-3xl absolute left-1/2 transform -translate-x-1/3 translate-y-1/3 bottom-0 w-[50px] h-[45px] md:w-[60px] md:h-[55px]">
+          <a href="#prog" className="bg-rose-500 hover:bg-rose-600 transition-colors duration-300 flex items-center justify-center rounded-3xl absolute left-1/2 transform -translate-x-1/3 translate-y-1/3 bottom-0 w-[50px] h-[45px] md:w-[60px] md:h-[55px]">
             <img
               className="h-[40%]"
               src={iconArrowRight}

@@ -16,7 +16,7 @@ export default function HomeBody() {
         </p>
         <a
           href="#apply"
-          className="flex items-center justify-between bg-rose-500 text-white rounded-xl mt-5 md:mt-10 lg:mt-12 py-3 md:py-4 px-5 md:px-7 "
+          className="flex items-center justify-between bg-rose-500 hover:bg-rose-600 transition-colors duration-300 text-white rounded-xl mt-5 md:mt-10 lg:mt-12 py-3 md:py-4 px-5 md:px-7 "
         >
           <span className="mr-2 font-bold">Apply Today</span>
           <img className="h-5" src={iconArrowRight} alt="icon arrow right" />

@@ -43,7 +43,7 @@ export default function About() {
           <div className="flex items-center justify-between md:justify-start flex-wrap w-[347px] md:w-full mt-5 md:mt-10 lg:mt-12">
             <a
               href="#explore"
-              className="flex items-center w-[168px] md:w-[202px] justify-center bg-rose-500 text-white rounded-2xl py-3 md:py-4 px-5 md:px-7 "
+              className="flex items-center w-[168px] md:w-[202px] justify-center bg-rose-500 hover:bg-rose-600 transition-colors duration-300 text-white rounded-2xl py-3 md:py-4 px-5 md:px-7 "
             >
               <span className="mr-3 font-bold text-sm">Explore More</span>
               <img
