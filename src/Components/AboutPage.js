@@ -12,7 +12,7 @@ export default function AboutPage() {
       <BlocWavePattern/>
       <Header/>
       <div>
-        <WaveHeader/>
+        <WaveHeader page={'About Us'} link={"/about"} />
         <SectionValue/> 
         <SectionStat/>
         <FooterContact/>

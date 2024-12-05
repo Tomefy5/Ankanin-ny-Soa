@@ -3,16 +3,16 @@ import motifWave from "../Assets/motifs/waves-2-large2.svg";
 import { Link } from "react-router-dom";
 import chevronRight from "../Assets/icons/chevron-right-svgrepo-com2.svg"
 
-export default function WaveHeader() {
+export default function WaveHeader({page, link}) {
   return (
     <div className="">
       <div className="relative mt-0 xl:mt-4 bg-rose-500 text-white h-48 md:h-72 lg:h-80 xl:h-96 flex items-center justify-center flex-col">
 
-        <h2 className="text-5xl lg:text-6xl xl:text-7xl font-normal mb-4 md:mb-6">About Us</h2>
+        <h2 className="text-5xl lg:text-6xl xl:text-7xl font-normal mb-4 md:mb-6">{page}</h2>
         <div className="flex justify-center items-center">
-            <Link to={"/"} className="font-medium lg:text-lg" >Home</Link>
+            <Link to={"/"} className="font-medium lg:text-lg transition-colors duration-300 hover:text-yellow-500" >Home</Link>
             <img className="h-5 lg:h-7 lg:mx-2" src={chevronRight} alt="chevron right" />
-            <Link to={"/about"} className="font-medium lg:text-lg">About Us</Link>
+            <Link to={link} className="font-medium lg:text-lg transition-colors duration-300 hover:text-yellow-500">{page}</Link>
         </div>
 
         <div className="absolute bottom-0 flex w-full h-auto">
