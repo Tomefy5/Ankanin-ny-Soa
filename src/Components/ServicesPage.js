@@ -3,6 +3,7 @@ import BlocWavePattern from "./BlocWavePattern";
 import Header from "./Header";
 import WaveHeader from "./WaveHeader";
 import ServiceContainer from "./ServiceContainer";
+import FooterContact from "./FooterContact";
 
 export default function ServicesPage() {
   return (
@@ -17,6 +18,7 @@ export default function ServicesPage() {
           <ServiceContainer/>
         </div>
       </div>
+      <FooterContact/>
     </div>
   );
 }
