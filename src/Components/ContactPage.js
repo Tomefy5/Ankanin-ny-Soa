@@ -3,6 +3,7 @@ import BlocWavePattern from './BlocWavePattern'
 import Header from './Header'
 import WaveHeader from './WaveHeader'
 import ContactBody from './ContactBody'
+import FooterContact from './FooterContact'
 
 export default function ContactPage() {
   return (
@@ -12,6 +13,7 @@ export default function ContactPage() {
       <div>
         <WaveHeader page={"Contact"} link={"/contact"} />
         <ContactBody/>
+        <FooterContact/>
       </div>
     </div>
   )
