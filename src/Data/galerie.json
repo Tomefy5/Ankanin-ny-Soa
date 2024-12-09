@@ -34,5 +34,41 @@
         "url": "/photos/fabrizio-conti-m5fHSKYSflI-unsplash.jpg",
         "context": "picnic",
         "description": "laptop in a table"
+    },
+    {
+        "id": 7,
+        "url": "/photos/arnel-hasanovic-MNd-Rka1o0Q-unsplash.jpg",
+        "context": "quotidien",
+        "description": "laptop in a table"
+    },
+    {
+        "id": 8,
+        "url": "/photos/becca-tapert-mDOGXiuVb4M-unsplash.jpg",
+        "context": "picnic",
+        "description": "laptop in a table"
+    },
+    {
+        "id": 9,
+        "url": "/photos/brooke-lark-jUPOXXRNdcA-unsplash.jpg",
+        "context": "event",
+        "description": "laptop in a table"
+    },
+    {
+        "id": 10,
+        "url": "/photos//davidcohen-EhSxbBCjr9A-unsplash.jpg",
+        "context": "quotidien",
+        "description": "laptop in a table"
+    },
+    {
+        "id": 11,
+        "url": "/photos/emile-perron-xrVDYZRGdw4-unsplash.jpg",
+        "context": "event",
+        "description": "laptop in a table"
+    },
+    {
+        "id": 12,
+        "url": "/photos/fabrizio-conti-m5fHSKYSflI-unsplash.jpg",
+        "context": "picnic",
+        "description": "laptop in a table"
     }
 ]

@@ -39,7 +39,7 @@ export default function SectionValue() {
     <div className="mt-20 pt-10 flex flex-col text-center items-center">
       <h2 className="font-medium mb-6 text-xl text-rose-500">Our Values</h2>
       <div>
-        <h1 className="400 px-3 inline-block ssm:w-[80%] md:px-0 lg:w-[70%] font-bold text-3xl md:text-4xl xl:text-5xl text-yellow-500">
+        <h1 className="px-3 inline-block ssm:w-[80%] md:px-0 lg:w-[70%] font-bold text-3xl md:text-4xl xl:text-5xl text-yellow-500">
           The Best Playschool For Your Kid
         </h1>
       </div>
