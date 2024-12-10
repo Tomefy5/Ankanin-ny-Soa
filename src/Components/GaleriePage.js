@@ -5,6 +5,7 @@ import WaveHeader from "./WaveHeader";
 import listPhotoGallery from "../Data/galerie.json";
 import PhotoCard from "./PhotoCard";
 import PhotoFilter from "./PhotoFilter";
+import FooterContact from "./FooterContact"
 
 export default function GaleriePage() {
   const [photoShown, setPhotoShown] = useState("all");
@@ -25,9 +26,7 @@ export default function GaleriePage() {
           </h2>
           <p className="mb-8 lg:w-[80%] mx-auto text-center">
             Consectetur adipisicing elit, sed do eiusmod tempor is incididunt ut
-            labore et dolore of magna aliqua. Ut enim ad minim veniam, made of
-            owl the quis nostrud exercitation ullamco laboris nisi ut aliquip ex
-            ea dolor commodo consequat.
+            labore et dolore of magna aliqua. Ut enim ad minim veniam.
           </p>
           <PhotoFilter filterHandler={filterHandler} photoShown={photoShown} />
         </div>
@@ -51,6 +50,7 @@ export default function GaleriePage() {
           )}
         </div>
       </div>
+      <FooterContact/>
     </div>
   );
 }
